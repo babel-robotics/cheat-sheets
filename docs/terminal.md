@@ -1,4 +1,4 @@
-## Terminal 
+## Terminal - Basics
 
 | Command| Debian  | MacOS | Windows  | Comment| 
 |---|---|---|---|---|
