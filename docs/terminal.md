@@ -17,6 +17,7 @@
 |`apt-cache show <pkgname>`|-|-|-|-|shows available updates for the specified pkg|
 |`sudo apt-get update`|-|-|-|-|updates the available pkg versions for apt from an online library|
 |`sudo apt install <pkgname>`|-|-|-|-|installs a pkg if availabe from the Advanced Packaging Tool|
+|`sudo apt-get upgrade`|-|-|-|-| upgrades all installed apt pkgs on your OS (may not be desired)|
 |-|-|-|-|-|-|
 
 
