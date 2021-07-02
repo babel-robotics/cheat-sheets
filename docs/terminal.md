@@ -14,6 +14,9 @@
 |`touch file.txt`|-|-| make new .txt file| -| *or other file format*|
 |  - | `open filename`   | - | open file in gui | - | -|
 | `xdg-open` | `open path/foldername`   | - |open folder in gui  |  - |-|
-|-|-|-|-|-|
+|`apt-cache show <pkgname>`|-|-|-|-|shows available updates for the specified pkg|
+|`sudo apt-get update`|-|-|-|-|updates the available pkg versions for apt from an online library|
+|`sudo apt install <pkgname>`|-|-|-|-|installs a pkg if availabe from the Advanced Packaging Tool|
+|-|-|-|-|-|-|
 
 
