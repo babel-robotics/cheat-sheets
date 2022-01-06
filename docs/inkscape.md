@@ -11,7 +11,8 @@ sudo apt-get install cm-super
 sudo apt-get install fonts-cmu
 ```
   
-Other options are the websites [ctan.org](https://ctan.org/tex-archive/fonts/cm/ps-type1/bakoma/otf/) and [fontsquirrel.com](https://www.fontsquirrel.com/fonts/computer-modern), which provide many different LaTeX fonts in the OpenType format.
+Other options are [ctan.org](https://ctan.org/tex-archive/fonts/cm/ps-type1/bakoma/otf/) and [fontsquirrel.com](https://www.fontsquirrel.com/fonts/computer-modern). The former website provides many different LaTeX fonts in the OpenType format and on the latter you can download the Computer Modern CMU font from Donald E. Knuth in the **_.ttf_** fromat.
+
   
 # Latin Modern Math Font
 The Computer Modern Math font is available here [gust.org](http://www.gust.org.pl/projects/e-foundry/lm-math/download/index_html) as **_.otf_** files for use in any non-LaTeX programs supporting OpenType fonts.  
