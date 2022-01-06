@@ -1,7 +1,6 @@
 # Computer Modern Font
 
-In order to use LaTeX Computer Modern fonts within Inkscape in Ubuntu 20.04 you can to 
-install the font packages **_cm&#x2011;super_** and **_fonts&#x2011;cmu_** in the following order:
+In order to use LaTeX default fonts like Computer Modern within Inkscape you need to install the font packages **_cm&#x2011;super_** and **_fonts&#x2011;cmu_** in Ubuntu 20.04 with the following commands
 
 ```
 sudo apt-get install cm-super
@@ -11,18 +10,22 @@ sudo apt-get install cm-super
 sudo apt-get install fonts-cmu
 ```
   
-Other options are [ctan.org](https://ctan.org/tex-archive/fonts/cm/ps-type1/bakoma/otf/) and [fontsquirrel.com](https://www.fontsquirrel.com/fonts/computer-modern). The former website provides many different LaTeX fonts in the OpenType format and on the latter you can download the Computer Modern CMU font from Donald E. Knuth in the **_.ttf_** fromat.
+or add the fonts manually to a directory read by **font-config**. In Ubuntu 20.04 in most cases the directory **/usr/local/share/fonts** will be adequate (you can also copy the font file to ~/.fonts or /usr/share/fonts).  
 
+If the font doesn't appear in the applications font list you can run the **fc-cache** program in order to force a cache rebuild.  
+
+The website [ctan.org](https://ctan.org/tex-archive/fonts/cm/ps-type1/bakoma/otf/) provides many different LaTeX fonts in the OpenType format and on [fontsquirrel.com](https://www.fontsquirrel.com/fonts/computer-modern) you can download various Computer Modern CMU fonts from Donald E. Knuth in the **_.ttf_** format.  
+  
+The basic fonts are also stored locally in [../src/latex-fonts/](https://github.com/babel-robotics/cheatsheets/tree/main/src/latex-fonts)   
+- [cmu10.otf](https://github.com/babel-robotics/cheatsheets/blob/main/src/latex-fonts/cmu10.otf) 
+- [cmu-ttf](https://github.com/babel-robotics/cheatsheets/tree/main/src/latex-fonts/cmu-ttf) 
+ 
   
 # Latin Modern Math Font
-The Computer Modern Math font is available here [gust.org](http://www.gust.org.pl/projects/e-foundry/lm-math/download/index_html) as **_.otf_** files for use in any non-LaTeX programs supporting OpenType fonts.  
+The Computer Modern Math font is available on [gust.org](http://www.gust.org.pl/projects/e-foundry/lm-math/download/index_html) as **_.otf_** files for use in any non-LaTeX programs supporting OpenType fonts or can be dwonloaded locally [latinmodern-math.otf](https://github.com/babel-robotics/cheatsheets/blob/main/src/latex-fonts/latinmodern-math.otf).
   
-In Ubuntu 20.04 just copy the font file to a directory read by **font-config**. In most cases the directory **/usr/local/share/fonts** will be adequate (you can also copy the font file to ~/.fonts or /usr/share/fonts ).  
-  
-If the font doesn't appear in the applications font list you can run the **fc-cache** program in order to force a cache rebuild.  
   
 # Re-editable LaTeX graphics
-
 **TexText** is a Python extension for the vector graphics editor Inkscape providing the possibility to add and re-edit LaTeX generated SVG elements to your drawing
 
 - [Installation](https://textext.github.io/textext/install/linux.html)
@@ -32,10 +35,10 @@ If the font doesn't appear in the applications font list you can run the **fc-ca
 
 # Converting PDF to SVG
 
-A great guide to convert graphics from papers into SVG format via Inkscape is given on the blog from [danielherber.com](https://www.danielherber.com/guides.php?option=latex-inkscape).
+A great guide to convert graphics from scientific papers into SVG format via Inkscape is given on Daniel Herber's blog [danielherber.com](https://www.danielherber.com/guides.php?option=latex-inkscape).
 
 # How to draw mathematical figures
 
-Gilles Castel describes how he draw figures for his mathematical lecture notes using Inkscape on his blog [castel.dev](https://castel.dev/post/lecture-notes-2/).
+Gilles Castel describes on his blog [castel.dev](https://castel.dev/post/lecture-notes-2/) how he draws figures for his mathematical lecture notes using Inkscape.
   
-He also nicely explains his workflow of taking notes with LateX and Vim here [lecture-notes-1](https://castel.dev/post/lecture-notes-1/), but this is not directly related to Inkscape anymore, so I will stop before straying from the topic of this cheat sheet.
+He also nicely explains his workflow of taking notes with LateX and Vim here [lecture-notes](https://castel.dev/post/lecture-notes-1/), but this is not directly related to Inkscape anymore, so I will stop before straying from the topic of this cheat sheet.
