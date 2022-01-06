@@ -41,4 +41,4 @@ A great guide to convert graphics from scientific papers into SVG format via Ink
 
 Gilles Castel describes on his blog [castel.dev](https://castel.dev/post/lecture-notes-2/) how he draws figures for his mathematical lecture notes using Inkscape.
   
-He also nicely explains his workflow of taking notes with LateX and Vim here [lecture-notes](https://castel.dev/post/lecture-notes-1/), but this is not directly related to Inkscape anymore, so I will stop before straying from the topic of this cheat sheet.
+He also nicely explains his workflow of taking notes with LateX and Vim in this post [lecture-notes-1](https://castel.dev/post/lecture-notes-1/), but this is not directly related to Inkscape anymore, so I will stop before straying from the topic of this cheat sheet.
