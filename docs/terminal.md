@@ -18,7 +18,7 @@
 |  - | `open filename`   | - | open file in gui | - | -|
 |`pkill keyword`| - | - | process kill | - | kills all processes containing the keyword |
 |`ps`| - | - | processes | - | shows all currently running processes |
-|`ps aux`| - | - | processes | - | shows running processes with additional information like cpu usage |
+|`ps aux`| - | - | processes auxiliary | - | shows running processes with additional information like cpu usage |
 |`ps aux \| grep 'keyword'`| - | - | processes, grep | - | searches within running processes for a specific keyword |
 |`rm filename`|-|-| remove file or folder|-r |recursively|
 |`touch file.txt`|-|-| make new .txt file| -| *or other file format*|
