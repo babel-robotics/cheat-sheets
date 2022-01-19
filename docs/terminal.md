@@ -6,6 +6,7 @@
 |`sudo apt install <pkgname>`|-|-|-|-|installs a pkg if availabe from the Advanced Packaging Tool|
 |`sudo apt-get upgrade`|-|-|-|-| upgrades all installed apt pkgs on your OS (may not be desired)|
 |`apt-cache show <pkgname>`|-|-|-|-|shows available updates for the specified pkg|
+|`apt-cache search <pkgname>`|-|-|-|-|searches for available pkgs in the apt-cache, the internal database in which information on all available packages is stored|
 |`cd foldername`|-|-|change folder|-|-|
 |`cd`&nbsp;`path/to/folder/foldername`|-|-| change dir|-| *dir = directory*|
 |`cd ..`|-|-| change one dir level up|-|-|
