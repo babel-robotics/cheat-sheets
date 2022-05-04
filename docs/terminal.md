@@ -12,6 +12,7 @@
 |`cd ..`|-|-| change one dir level up|-|-|
 |`cd ~`|-|-|change to home dir| -|-|
 |`kill -9 processnumber`| - | - | kill process | - | kills the processes with the specified ID number |
+|`killall nautilus`| - | - | kills nautilus | - | kills the nautilus file manager, usefull when nautlus crashes|
 |`ls`|-|-|list files|-|-|
 |`mkdir foldername`|-|-| make new folder| -|-|
 |`mv filename path/filename`|-|-| move file to other dir|-|-|
