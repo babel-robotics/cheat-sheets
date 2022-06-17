@@ -1,5 +1,7 @@
 # Common Ubuntu commands
 
+### Update your Ubuntu packages
+
 ```
 apt-get update
 ```
@@ -12,6 +14,13 @@ apt-get upgrade
 
 The sudo apt-get upgrade command performs the actual "update", in this case referred to as upgrading the system. Installed here are all new versions of a package, if updates are available. The packages are installed on top of the packages already present on the system. None are exchanged and replaced with new ones.
 
+### Search for keywords
+
+You can search in your terminal for keywords simply by
+
+```
+ctrl + r <then start typing the search string>
+```
 
 ## Terminal - Debian
 
@@ -31,7 +40,7 @@ The sudo apt-get upgrade command performs the actual "update", in this case refe
 | - | - | -w | match the whole word|
 | - | - | -l | just give the file name of matching files|
 | - | - | -e | the pattern used during the search|
-|`kill -9 processnumber`| kills the processes with the specified ID number |-|-|
+|`kill -9 <processnumber>`| kills the processes with the specified ID number |-|-|
 |`killall nautilus`| kills the nautilus file manager, usefull when nautilus crashes|-|-|
 |`ls`|list files|-|-|
 |`mkdir foldername`| make new folder| -|-|
