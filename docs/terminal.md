@@ -55,6 +55,15 @@ ctrl + r <then start typing the search string>
 | `xdg-open` | open folder in gui | -|-|
 |-|-|-|-|
 
+## Terminator - Debian
+
+Maximize or minimize the active window
+
+```
+Ctrl + Shift + x
+```
+
+
 ## Terminal - MacOS
 
 | MacOS | Command | Flag | Comment |
@@ -62,6 +71,3 @@ ctrl + r <then start typing the search string>
 |  `open filename`   |  open file in gui | - | - |
 | `open path/foldername`   | open folder in gui  |  - | - |
 |-|-|-|-|
-
-
-
