@@ -14,15 +14,15 @@ apt-get upgrade
 
 The sudo apt-get upgrade command performs the actual "update", in this case referred to as upgrading the system. Installed here are all new versions of a package, if updates are available. The packages are installed on top of the packages already present on the system. None are exchanged and replaced with new ones.
 
-### Search for keywords
-
-You can search in your terminal for keywords simply by
-
-```
-ctrl + r <then start typing the search string>
-```
-
 ## Terminal - Debian
+
+| Shortcut | Comment |
+|---|---|
+|  ctrl + a  | move cursor to the beginning of the line |
+|  ctrl + e  | move cursor to the ending of the line |
+|  ctrl + u  | erases everything to the beginning of the line |
+|  ctrl + r  | to search through your command history |
+|-|-|
 
 | Command | Comment | Flag | Comment |
 |---|---|---|---|
