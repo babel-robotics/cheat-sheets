@@ -36,6 +36,7 @@ The sudo apt-get upgrade command performs the actual "update", in this case refe
 |`cd ..`| change dir to one level up|-|-|
 |`cd ~`| change to home dir| -|-|
 |`grep -rnw '/path/to/somewhere/' -e 'pattern'`| search through files for a pattern | -r| recursively |
+|`grep -r "keyword" *`| search through all files in the current folder| -r| recursively |
 | - | - | -n | line number|
 | - | - | -w | match the whole word|
 | - | - | -l | just give the file name of matching files|
@@ -57,12 +58,12 @@ The sudo apt-get upgrade command performs the actual "update", in this case refe
 
 ## Terminator - Debian
 
-Maximize or minimize the active window
-
-```
-Ctrl + Shift + x
-```
-
+| Shortcut | Comment |
+|---|---|
+|  ctrl + shift + x | maximize or minimize the active window |
+|  alt + ↑/↓/←/→| move to another terminal with respect to the current one|
+|  ctrl + shift + o | split terminals horizontally|
+|  ctrl + shift + e| split terminals vertically|
 
 ## Terminal - MacOS
 
