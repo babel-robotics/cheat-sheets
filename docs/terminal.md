@@ -18,10 +18,10 @@ The sudo apt-get upgrade command performs the actual "update", in this case refe
 
 | Shortcut | Comment |
 |---|---|
-|  ctrl + a  | move cursor to the beginning of the line |
-|  ctrl + e  | move cursor to the ending of the line |
-|  ctrl + u  | erases everything to the beginning of the line |
-|  ctrl + r  | to search through your command history |
+| `ctrl + a` | move cursor to the beginning of the line |
+| `ctrl + e` | move cursor to the ending of the line |
+| `ctrl + u` | erases everything to the beginning of the line |
+| `ctrl + r` | to search through your command history |
 |-|-|
 
 | Command | Comment | Flag | Comment |
@@ -60,10 +60,10 @@ The sudo apt-get upgrade command performs the actual "update", in this case refe
 
 | Shortcut | Comment |
 |---|---|
-|  ctrl + shift + x | maximize or minimize the active window |
-|  alt + ↑/↓/←/→| move to another terminal with respect to the current one|
-|  ctrl + shift + o | split terminals horizontally|
-|  ctrl + shift + e| split terminals vertically|
+| `ctrl + shift + x` | maximize or minimize the active window |
+| `alt + ↑/↓/←/→`| move to another terminal with respect to the current one|
+| `ctrl + shift + o` | split terminals horizontally|
+| `ctrl + shift + e` | split terminals vertically|
 
 ## Terminal - MacOS
 
