@@ -41,7 +41,7 @@ The sudo apt-get upgrade command performs the actual "update", in this case refe
 | - | - | -w | match the whole word|
 | - | - | -l | just give the file name of matching files|
 | - | - | -e | the pattern used during the search|
-| history | - | - | shows all previous commands from this terminal session|
+| `history` | - | - | shows all previous commands from this terminal session|
 |`kill -9 <processnumber>`| kills the processes with the specified ID number |-|-|
 |`killall nautilus`| kills the nautilus file manager, usefull when nautilus crashes|-|-|
 |`ls`|list files|-|-|
