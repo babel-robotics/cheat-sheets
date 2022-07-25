@@ -37,10 +37,7 @@ The sudo apt-get upgrade command performs the actual "update", in this case refe
 |`cd ~`| change to home dir| -|-|
 |`grep -rnw '/path/to/somewhere/' -e 'pattern'`| search through files for a pattern | -r| recursively |
 |`grep -r "keyword" *`| search through all files in the current folder| -r| recursively |
-| - | - | -n | line number|
-| - | - | -w | match the whole word|
-| - | - | -l | just give the file name of matching files|
-| - | - | -e | the pattern used during the search|
+| `grep -r "keyword" --include=*.orogen` | search through all files of a specific type, e.g. .orogen | - | - |
 | `history` | - | - | shows all previous commands from this terminal session|
 |`kill -9 <processnumber>`| kills the processes with the specified ID number |-|-|
 |`killall nautilus`| kills the nautilus file manager, usefull when nautilus crashes|-|-|
